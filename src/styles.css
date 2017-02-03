@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+body { padding-top: 70px; }
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+
+a .fa-front {
+    font-size: 120px;
+    color: #3D3D3D;
+}
+a .fa-front:hover {
+    color: #474747;
+    /*text-shadow: 0px 0px 1px #FFD800;*/ 
+}
+.marketing .col-lg-4 {
+    margin-top: 6.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
