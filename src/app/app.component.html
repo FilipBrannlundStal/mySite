@@ -1,5 +1,32 @@
 <app-header>Header not loaded</app-header>
-<div class="container">
-    <router-outlet></router-outlet>
+<div class="row">
+    <div class="col-md-2">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link sidebar" (click)="toogleSub('home')"><span class="fa fa-home fa-1"></span> Home</a>
+            </li>
+            <ul *ngIf="displayHome" class="nav flex-column submenu">
+                <li class="nav-item">
+                    <a class="nav-link sidebar" href="/resume"><span class="fa fa-code fa-1"></span> Program languages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link sidebar" href="/program-languages"><span class="fa fa-file fa-1"></span> Résumé</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link sidebar" href="#"><span class="fa fa-desktop fa-1"></span> Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link sidebar" href="#"><span class="fa fa-user fa-1"></span> Contact</a>
+                </li>
+            </ul>
+            
+        </ul>
+    </div>
+     <div class="col-md-10">
+         <div class="container">
+            <router-outlet></router-outlet>
+        </div>  
+    </div>
 </div>
+
 <app-footer>Footer not loaded</app-footer>

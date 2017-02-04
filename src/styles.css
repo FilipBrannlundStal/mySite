@@ -2,6 +2,31 @@
 
 body { padding-top: 70px; }
 
+/* SIDEBAR */
+
+.flex-column{
+    border-right: 1px solid lightgray;
+    height: 100%;
+}
+.sidebar {
+    color: #3D3D3D;
+    margin-left: 1%;
+}
+ul.submenu {
+    margin-left: 5%;
+}
+
+/* LINE */
+.line {
+    border-bottom: 1px solid lightgray;
+}
+
+
+/* CENTERING COL DIV */
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -27,5 +52,8 @@ a .fa-front:hover {
     margin-right: .75rem;
     margin-left: .75rem;
 }
+
+/* MISCS */
+
 
 

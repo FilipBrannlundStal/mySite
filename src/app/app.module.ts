@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { ResumeComponent } from './resume/resume.component';
 
 import {routing} from './app.routing';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { ProgramLanguagesComponent } from './program-languages/program-languages.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import {routing} from './app.routing';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ResumeComponent
+    ResumeComponent,
+    SidebarComponent,
+    ProgramLanguagesComponent
   ],
   imports: [
     BrowserModule,
